@@ -1,0 +1,93 @@
+/* Add this CSS code to your Registration.css file */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../templatemo_590_topic_listing/images/green.jfif'); /* Replace 'background-image.jpg' with the actual image file name */
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.screen {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background-color: #222;
+}
+
+.screen__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.signin {
+  width: 100%;
+}
+
+.Reg_Field {
+  padding: 20px;
+}
+
+.Reg_Field h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #0f0;
+}
+
+.inputCont {
+  margin-bottom: 40px;
+  width: 450px;
+}
+
+.inputCont label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0f0;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+.Submit {
+  background-color: #0f0;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Submit:hover {
+  background-color: #090;
+}
+
+.error {
+  color: #f00;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Rest of your CSS */

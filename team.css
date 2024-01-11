@@ -1,0 +1,112 @@
+/* Reset some default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.back-to-home {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+/* Keyframe animations */
+
+
+
+/* Main content container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Team section styles */
+.team-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Team member card styles */
+/* Your existing CSS styles */
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex-basis: calc(25% - 20px); /* Adjust the width as needed */
+    text-align: center;
+    margin: 10px;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 200px; /* Adjust the image size as needed */
+    border-radius: 50%;
+}
+
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.team-member p {
+    color: #777;
+}
+
+/* Footer styles */
+
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Team member card styles */
+.team-member {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.team-member img {
+    max-width: 50%;
+    border-radius: 50%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.team-member:hover img {
+    opacity: 0.8;
+}
